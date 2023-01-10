@@ -1,4 +1,4 @@
 def call(Map config =[:]){
-    load1(name: "test.sh")
+    load(name: "test1.sh")
     sh "./test.sh ${config.name}"
 }
